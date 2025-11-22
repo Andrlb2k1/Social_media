@@ -8,3 +8,17 @@ Comandos:
 npm init
 
 npm install express cors mysql2
+
+node index.js
+
+npm install nodemon
+
+npm start
+
+npm install sequelize sequelize-cli
+
+npm install -g sequelize sequelize-cli
+
+sequelize init
+
+npx sequelize-cli init

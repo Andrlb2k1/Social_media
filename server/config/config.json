@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "PostGreen2k22.",
+    "database": "test_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "PostGreen2k22.",
+    "database": "test_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "PostGreen2k22.",
+    "database": "test_db",
+    "host": "localhost",
+    "dialect": "mysql"
+  }
+}
