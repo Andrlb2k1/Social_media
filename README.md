@@ -3,7 +3,7 @@ Aplicação web de rede social, feita com HTML, CSS, JavaScript, React, JSON, Ex
 
 Comandos:
 
--- Server:
+-- Servidor:
 
 npm init
 
@@ -22,3 +22,11 @@ npm install -g sequelize sequelize-cli
 sequelize init
 
 npx sequelize-cli init
+
+-- Cliente:
+
+npx create-react-app .
+
+npm start
+
+npm install axios
