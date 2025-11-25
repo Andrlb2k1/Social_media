@@ -25,6 +25,8 @@ npx sequelize-cli init
 
 npm install bcrypt
 
+npm install jsonwebtoken
+
 -- Cliente:
 
 npx create-react-app .
