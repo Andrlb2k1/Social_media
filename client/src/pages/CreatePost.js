@@ -29,7 +29,7 @@ function CreatePost() {
     <div className="createPostPage">
         <Formik initialValues={initialValues} onSubmit={onSubmit} validationSchema={validationSchema}>
             <Form className="formContainer">
-                <label htmlFor="inputCreatePost">Title: </label>
+                <label>Title: </label>
                 <ErrorMessage name="title" component="span" />
                 <Field
                     autocomplete="off"
@@ -37,7 +37,7 @@ function CreatePost() {
                     name="title" 
                     placeholder="(Ex.: Title...)" 
                 />
-                <label htmlFor="inputCreatePost">Post: </label>
+                <label>Post: </label>
                 <ErrorMessage name="postText" component="span" />
                 <Field
                     autocomplete="off"
@@ -45,7 +45,7 @@ function CreatePost() {
                     name="postText" 
                     placeholder="(Ex.: Post...)" 
                 />
-                <label htmlFor="inputCreatePost">Username: </label>
+                <label>Username: </label>
                 <ErrorMessage name="username" component="span" />
                 <Field
                     autocomplete="off"

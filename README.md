@@ -23,6 +23,8 @@ sequelize init
 
 npx sequelize-cli init
 
+npm install bcrypt
+
 -- Cliente:
 
 npx create-react-app .
