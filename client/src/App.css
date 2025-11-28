@@ -263,7 +263,7 @@ button {
   margin-top: 20px;
 }
 
-.listOfComments .comment button {
+.listOfComments .comment button, #individual button {
   margin-top: 10px;
   width: 100px;
   height: 40px;
@@ -272,7 +272,7 @@ button {
   color: white;
 }
 
-.listOfComments .comment button:hover {
+.listOfComments .comment button:hover, #individual button:hover {
   background-color: white;
   border: 1px solid lightgray;
   color: black;
