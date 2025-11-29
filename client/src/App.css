@@ -79,6 +79,10 @@ body {
   margin-left: 10px;
 }
 
+input {
+  outline: none;
+}
+
 /* CREATE POST PAGE CSS */
 
 .createPostPage {
@@ -309,6 +313,10 @@ button, .changePasswordContainer input, button {
 
 .loginContainer input, .changePasswordContainer input {
   border: 2px solid dodgerblue;
+}
+
+.changePasswordContainer h1 {
+  padding-bottom: 20px;
 }
 
 /* PROFILE PAGE */
