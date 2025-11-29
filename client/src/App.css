@@ -263,21 +263,6 @@ button {
   margin-top: 20px;
 }
 
-.listOfComments .comment button, #individual button {
-  margin-top: 10px;
-  width: 100px;
-  height: 40px;
-  cursor: pointer;
-  background-color: lightgray;
-  color: white;
-}
-
-.listOfComments .comment button:hover, #individual button:hover {
-  background-color: white;
-  border: 1px solid gray;
-  color: black;
-}
-
 #individual {
   height: 500px;
   width: 600px;
@@ -292,9 +277,9 @@ button {
   font-size: 25px;
 }
 
-/* LOGIN */
+/* LOGIN AND CHANGE PASSWORD */
 
-.loginContainer {
+.loginContainer, .changePasswordContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -304,7 +289,7 @@ button {
 }
 
 .loginContainer input,
-button {
+button, .changePasswordContainer input, button {
   width: 200px;
   height: 50px;
   border-radius: 8px;
@@ -312,17 +297,17 @@ button {
   margin: 10px;
 }
 
-.loginContainer button {
+.loginContainer button, .changePasswordContainer button {
   background-color: lightskyblue;
   color: white;
   cursor: pointer;
 }
 
-.loginContainer button:hover {
+.loginContainer button:hover, .changePasswordContainer button:hover {
   background-color: dodgerblue;
 }
 
-.loginContainer input {
+.loginContainer input, .changePasswordContainer input {
   border: 2px solid dodgerblue;
 }
 
@@ -344,11 +329,34 @@ button {
 .basicInfo h1 {
   font-weight: lighter;
   font-size: 35px;
-  margin: 0;
   padding-top: 40px;
-  
 }
 
 .basicInfo h1 b {
   font-weight: bold;
+}
+
+.basicInfo button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 180px !important;
+}
+
+/* GRAY BUTTONS */
+
+.listOfComments .comment button, #individual button, .basicInfo button {
+  margin-top: 10px;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  background-color: lightgray;
+  color: white;
+}
+
+.listOfComments .comment button:hover, #individual button:hover, .basicInfo button:hover {
+  background-color: white;
+  border: 1px solid gray;
+  color: black;
 }

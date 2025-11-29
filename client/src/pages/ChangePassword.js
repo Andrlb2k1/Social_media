@@ -25,7 +25,7 @@ function ChangePassword() {
     };
 
     return (
-        <div>
+        <div className="changePasswordContainer">
             <h1>Change Your Password</h1>
             <input type="password" placeholder="Old Password..." onChange={(event) => {
                 setOldPassword(event.target.value);
